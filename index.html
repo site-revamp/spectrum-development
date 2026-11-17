@@ -1,0 +1,1788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Spectrum Development | Sustainable Homes & Communities in Cayman</title>
+  <meta name="description" content="Discover Spectrum Development's approach to sustainable residential development in the Cayman Islands, including LEED-certified and net-zero energy homes and communities.">
+  <meta name="theme-color" content="#6583AD">
+  <link rel="canonical" href="https://spectrumdevelopment.ky/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Spectrum Development | Naturally Engineered Living">
+  <meta property="og:description" content="Sustainable homes and communities, thoughtfully developed for the Cayman Islands.">
+  <meta property="og:url" content="https://spectrumdevelopment.ky/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Spectrum Development",
+    "url": "https://spectrumdevelopment.ky/",
+    "email": "info@spectrumdevelopment.com",
+    "telephone": "+13459167246",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Landmark Square, Floor 1 - Unit A",
+      "addressLocality": "Grand Cayman",
+      "addressCountry": "KY"
+    }
+  }
+  </script>
+
+  <style>
+    :root {
+      --primary: #6583AD;
+      --primary-dark: #3F5F88;
+      --primary-light: #DCE5F0;
+      --green: #526B58;
+      --green-dark: #34483A;
+      --green-light: #E4EAE1;
+      --accent: #C6A875;
+      --ink: #202A35;
+      --body: #46515D;
+      --muted: #707A83;
+      --paper: #F5F3EE;
+      --stone: #E9E6DE;
+      --white: #FFFFFF;
+      --surface: #EEF1F4;
+      --border: #D9DEE3;
+      --focus: #B98236;
+      --serif: "DM Serif Display", Georgia, serif;
+      --sans: "Manrope", Arial, sans-serif;
+      --container: 1280px;
+      --ease: cubic-bezier(.2,.7,.2,1);
+      --shadow: 0 24px 70px rgba(32,42,53,.12);
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 100px;
+    }
+
+    body {
+      margin: 0;
+      color: var(--body);
+      background: var(--paper);
+      font-family: var(--sans);
+      font-size: 17px;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+
+    body.menu-open { overflow: hidden; }
+
+    img { display: block; max-width: 100%; }
+
+    a { color: inherit; text-decoration: none; }
+
+    button, a { -webkit-tap-highlight-color: transparent; }
+
+    button, input, textarea { font: inherit; }
+
+    button:focus-visible,
+    a:focus-visible {
+      outline: 3px solid var(--focus);
+      outline-offset: 4px;
+    }
+
+    ::selection {
+      background: var(--primary-light);
+      color: var(--ink);
+    }
+
+    .container {
+      width: min(var(--container), calc(100% - 48px));
+      margin-inline: auto;
+    }
+
+    .section {
+      padding: 112px 0;
+      position: relative;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      margin: 0 0 22px;
+      color: var(--green);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 28px;
+      height: 1px;
+      background: currentColor;
+    }
+
+    h1, h2, h3, h4, p { margin-top: 0; }
+
+    h1, h2, h3 {
+      color: var(--ink);
+      font-family: var(--serif);
+      font-weight: 400;
+      line-height: 1.06;
+      letter-spacing: -.025em;
+    }
+
+    h1 {
+      max-width: 850px;
+      margin-bottom: 28px;
+      font-size: clamp(3.1rem, 7.1vw, 6.1rem);
+    }
+
+    h2 {
+      margin-bottom: 24px;
+      font-size: clamp(2.5rem, 5vw, 4.5rem);
+    }
+
+    h3 {
+      margin-bottom: 14px;
+      font-size: clamp(1.65rem, 2.7vw, 2.25rem);
+    }
+
+    p { margin-bottom: 18px; }
+
+    .lead {
+      max-width: 680px;
+      color: var(--body);
+      font-size: clamp(17px, 1.35vw, 19px);
+      line-height: 1.75;
+    }
+
+    .muted { color: var(--muted); }
+
+    .button {
+      display: inline-flex;
+      min-height: 54px;
+      align-items: center;
+      justify-content: center;
+      gap: 13px;
+      padding: 14px 23px;
+      border: 1px solid transparent;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: .015em;
+      transition:
+        background .25s var(--ease),
+        color .25s var(--ease),
+        border-color .25s var(--ease),
+        transform .25s var(--ease);
+    }
+
+    .button:hover { transform: translateY(-3px); }
+
+    .button-primary {
+      color: var(--white);
+      background: var(--primary-dark);
+    }
+
+    .button-primary:hover { background: #344F73; }
+
+    .button-light {
+      color: var(--ink);
+      background: var(--white);
+    }
+
+    .button-light:hover { background: var(--primary-light); }
+
+    .button-outline {
+      color: var(--ink);
+      border-color: rgba(32,42,53,.28);
+      background: transparent;
+    }
+
+    .button-outline:hover {
+      color: var(--white);
+      border-color: var(--primary-dark);
+      background: var(--primary-dark);
+    }
+
+    .arrow { font-size: 19px; line-height: 1; }
+
+    /* Header */
+
+    .site-header {
+      position: absolute;
+      z-index: 50;
+      top: 0;
+      left: 0;
+      width: 100%;
+      color: var(--ink);
+      border-bottom: 1px solid rgba(255,255,255,.35);
+    }
+
+    .nav-wrap {
+      display: flex;
+      min-height: 92px;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .brand {
+      display: inline-flex;
+      flex-direction: column;
+      line-height: 1;
+    }
+
+    .brand-name {
+      color: var(--ink);
+      font-size: 23px;
+      font-weight: 800;
+      letter-spacing: -.07em;
+    }
+
+    .brand-sub {
+      margin-top: 7px;
+      color: var(--green);
+      font-size: 9px;
+      font-weight: 800;
+      letter-spacing: .23em;
+      text-transform: uppercase;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: clamp(18px, 2.5vw, 36px);
+    }
+
+    .nav-links a {
+      color: var(--ink);
+      font-size: 13px;
+      font-weight: 700;
+      transition: color .2s ease;
+    }
+
+    .nav-links a:hover { color: var(--primary-dark); }
+
+    .nav-cta {
+      min-height: 46px;
+      padding: 11px 18px;
+      color: var(--white) !important;
+      background: var(--primary-dark);
+    }
+
+    .menu-toggle {
+      display: none;
+      width: 46px;
+      height: 46px;
+      padding: 10px;
+      border: 1px solid var(--border);
+      background: var(--white);
+      cursor: pointer;
+    }
+
+    .menu-toggle span {
+      display: block;
+      width: 22px;
+      height: 2px;
+      margin: 5px auto;
+      background: var(--ink);
+      transition: transform .2s ease;
+    }
+
+    /* Hero */
+
+    .hero {
+      position: relative;
+      display: flex;
+      min-height: 780px;
+      align-items: center;
+      overflow: hidden;
+      padding: 150px 0 90px;
+      background:
+        linear-gradient(90deg, rgba(245,243,238,.97) 0%, rgba(245,243,238,.91) 43%, rgba(245,243,238,.14) 100%),
+        url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=2200&q=85") center/cover;
+    }
+
+    .hero::before {
+      position: absolute;
+      top: 16%;
+      right: -160px;
+      width: 590px;
+      height: 590px;
+      border: 1px solid rgba(101,131,173,.34);
+      border-radius: 50%;
+      content: "";
+      pointer-events: none;
+    }
+
+    .hero::after {
+      position: absolute;
+      right: 6%;
+      bottom: -190px;
+      width: 500px;
+      height: 500px;
+      border: 1px solid rgba(82,107,88,.30);
+      border-radius: 50%;
+      content: "";
+      pointer-events: none;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 850px;
+    }
+
+    .hero h1 span { color: var(--primary-dark); }
+
+    .hero-copy {
+      max-width: 620px;
+      margin-bottom: 32px;
+      color: #46515D;
+      font-size: clamp(18px, 1.5vw, 20px);
+      line-height: 1.75;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 13px;
+      margin-bottom: 52px;
+    }
+
+    .hero-proof {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px 30px;
+      color: var(--ink);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .hero-proof span {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+    }
+
+    .proof-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--green);
+    }
+
+    .hero-note {
+      position: absolute;
+      right: 28px;
+      bottom: 35px;
+      z-index: 2;
+      max-width: 210px;
+      color: var(--white);
+      font-size: 12px;
+      line-height: 1.5;
+      text-align: right;
+      text-shadow: 0 2px 12px rgba(0,0,0,.55);
+    }
+
+    /* Brand statement */
+
+    .statement {
+      padding: 75px 0;
+      color: var(--white);
+      background: var(--green-dark);
+    }
+
+    .statement-inner {
+      display: grid;
+      grid-template-columns: 1.1fr 1fr;
+      align-items: center;
+      gap: 65px;
+    }
+
+    .statement h2 {
+      max-width: 600px;
+      margin: 0;
+      color: var(--white);
+      font-size: clamp(2.4rem, 4.5vw, 4.1rem);
+    }
+
+    .statement p {
+      margin: 0;
+      color: rgba(255,255,255,.82);
+      font-size: 18px;
+      line-height: 1.8;
+    }
+
+    /* Introduction */
+
+    .intro-grid {
+      display: grid;
+      grid-template-columns: .92fr 1.08fr;
+      align-items: center;
+      gap: 90px;
+    }
+
+    .intro-visual {
+      position: relative;
+      min-height: 570px;
+      overflow: hidden;
+      background:
+        linear-gradient(180deg, rgba(32,42,53,.02), rgba(32,42,53,.35)),
+        url("https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1100&q=85") center/cover;
+    }
+
+    .intro-visual::before {
+      position: absolute;
+      top: 28px;
+      left: 28px;
+      width: 75%;
+      height: 75%;
+      border: 1px solid rgba(255,255,255,.65);
+      content: "";
+    }
+
+    .visual-caption {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      padding: 34px;
+      color: var(--white);
+      background: linear-gradient(transparent, rgba(20,30,35,.75));
+    }
+
+    .visual-caption strong {
+      display: block;
+      font-family: var(--serif);
+      font-size: 30px;
+      font-weight: 400;
+    }
+
+    .visual-caption small {
+      font-size: 12px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .intro-copy h2 { max-width: 600px; }
+
+    .intro-copy .lead { margin-bottom: 24px; }
+
+    .text-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      padding-bottom: 6px;
+      color: var(--primary-dark);
+      border-bottom: 1px solid var(--primary);
+      font-size: 14px;
+      font-weight: 800;
+    }
+
+    /* Six capabilities */
+
+    .capabilities {
+      background: var(--white);
+    }
+
+    .section-heading {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 50px;
+      margin-bottom: 65px;
+    }
+
+    .section-heading h2 {
+      max-width: 680px;
+      margin-bottom: 0;
+    }
+
+    .section-heading .lead {
+      max-width: 390px;
+      margin-bottom: 4px;
+      font-size: 16px;
+    }
+
+    .capability-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0 35px;
+    }
+
+    .capability {
+      min-height: 245px;
+      padding: 34px 10px 36px;
+      border-top: 1px solid var(--border);
+    }
+
+    .capability:nth-child(n+4) {
+      border-bottom: 1px solid var(--border);
+    }
+
+    .capability-icon {
+      display: flex;
+      width: 68px;
+      height: 68px;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 25px;
+      color: var(--green-dark);
+      background: var(--green-light);
+      border-radius: 50%;
+    }
+
+    .capability-icon svg {
+      width: 36px;
+      height: 36px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 1.55;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .capability h3 {
+      margin-bottom: 10px;
+      font-family: var(--sans);
+      font-size: 19px;
+      font-weight: 800;
+      letter-spacing: -.03em;
+    }
+
+    .capability p {
+      max-width: 340px;
+      margin-bottom: 0;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    /* Projects */
+
+    .projects {
+      overflow: hidden;
+      background: var(--stone);
+    }
+
+    .projects-heading {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 30px;
+      margin-bottom: 48px;
+    }
+
+    .projects-heading h2 {
+      max-width: 680px;
+      margin-bottom: 0;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: 1.15fr .85fr;
+      gap: 28px;
+    }
+
+    .project-feature {
+      position: relative;
+      display: flex;
+      min-height: 590px;
+      align-items: end;
+      overflow: hidden;
+      color: var(--white);
+      background:
+        linear-gradient(0deg, rgba(20,32,35,.84), rgba(20,32,35,0) 72%),
+        url("https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1400&q=85") center/cover;
+    }
+
+    .project-feature-content {
+      position: relative;
+      z-index: 1;
+      max-width: 620px;
+      padding: 48px;
+    }
+
+    .project-feature h3 {
+      color: var(--white);
+      font-size: clamp(2.5rem, 4vw, 4rem);
+    }
+
+    .project-feature p {
+      max-width: 510px;
+      color: rgba(255,255,255,.88);
+      font-size: 16px;
+    }
+
+    .project-label {
+      display: inline-block;
+      margin-bottom: 17px;
+      padding: 7px 11px;
+      color: var(--white);
+      border: 1px solid rgba(255,255,255,.6);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .project-side {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      gap: 28px;
+    }
+
+    .project-mini {
+      position: relative;
+      display: flex;
+      min-height: 280px;
+      align-items: end;
+      overflow: hidden;
+      color: var(--white);
+      background-position: center;
+      background-size: cover;
+    }
+
+    .project-mini::before {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(0deg, rgba(20,32,35,.83), rgba(20,32,35,0) 80%);
+      content: "";
+    }
+
+    .project-mini-content {
+      position: relative;
+      z-index: 1;
+      padding: 28px;
+    }
+
+    .project-mini h3 {
+      margin-bottom: 8px;
+      color: var(--white);
+      font-size: 29px;
+    }
+
+    .project-mini p {
+      margin: 0;
+      color: rgba(255,255,255,.85);
+      font-size: 14px;
+    }
+
+    .viridia {
+      background-image: url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=85");
+    }
+
+    .periwinkle {
+      background-image: url("https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1000&q=85");
+    }
+
+    .project-footnote {
+      margin: 24px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    /* Sustainability */
+
+    .sustainability {
+      color: var(--white);
+      background: var(--primary-dark);
+    }
+
+    .sustainability h2 { color: var(--white); }
+
+    .sustainability .eyebrow { color: #DCE5F0; }
+
+    .sustainability .lead {
+      color: rgba(255,255,255,.83);
+    }
+
+    .sustainability-layout {
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      align-items: center;
+      gap: 90px;
+    }
+
+    .sustainability-visual {
+      position: relative;
+      min-height: 540px;
+      overflow: hidden;
+      background:
+        linear-gradient(0deg, rgba(24,42,58,.30), rgba(24,42,58,.03)),
+        url("https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1100&q=85") center/cover;
+    }
+
+    .sustainability-visual::after {
+      position: absolute;
+      inset: 25px;
+      border: 1px solid rgba(255,255,255,.65);
+      content: "";
+    }
+
+    .sustainability-points {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 26px 30px;
+      margin: 34px 0;
+    }
+
+    .sustainability-point {
+      padding-top: 17px;
+      border-top: 1px solid rgba(255,255,255,.35);
+    }
+
+    .sustainability-point strong {
+      display: block;
+      margin-bottom: 7px;
+      color: var(--white);
+      font-size: 16px;
+    }
+
+    .sustainability-point span {
+      color: rgba(255,255,255,.78);
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .sustainability .button {
+      color: var(--ink);
+      background: var(--white);
+    }
+
+    .sustainability .button:hover {
+      background: var(--primary-light);
+    }
+
+    /* Proof */
+
+    .proof {
+      background: var(--paper);
+    }
+
+    .proof-intro {
+      max-width: 780px;
+      margin-bottom: 55px;
+    }
+
+    .proof-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .proof-item {
+      padding: 35px 30px 35px 0;
+    }
+
+    .proof-item + .proof-item {
+      padding-left: 30px;
+      border-left: 1px solid var(--border);
+    }
+
+    .proof-item strong {
+      display: block;
+      margin-bottom: 12px;
+      color: var(--primary-dark);
+      font-family: var(--serif);
+      font-size: clamp(2rem, 3.3vw, 3rem);
+      font-weight: 400;
+      line-height: 1.1;
+    }
+
+    .proof-item p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    /* Journey */
+
+    .journey {
+      background: var(--white);
+    }
+
+    .journey-layout {
+      display: grid;
+      grid-template-columns: .8fr 1.2fr;
+      gap: 100px;
+    }
+
+    .journey-list {
+      border-top: 1px solid var(--border);
+    }
+
+    .journey-step {
+      display: grid;
+      grid-template-columns: 55px 1fr;
+      gap: 18px;
+      padding: 25px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .journey-number {
+      color: var(--primary);
+      font-family: var(--serif);
+      font-size: 30px;
+      line-height: 1.1;
+    }
+
+    .journey-step h3 {
+      margin-bottom: 7px;
+      font-family: var(--sans);
+      font-size: 18px;
+      font-weight: 800;
+    }
+
+    .journey-step p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    /* CTA */
+
+    .contact-cta {
+      position: relative;
+      overflow: hidden;
+      padding: 100px 0;
+      color: var(--white);
+      background: var(--green-dark);
+    }
+
+    .contact-cta::before,
+    .contact-cta::after {
+      position: absolute;
+      width: 430px;
+      height: 430px;
+      border: 1px solid rgba(255,255,255,.16);
+      border-radius: 50%;
+      content: "";
+      pointer-events: none;
+    }
+
+    .contact-cta::before {
+      top: -230px;
+      right: -80px;
+    }
+
+    .contact-cta::after {
+      right: 120px;
+      bottom: -330px;
+      width: 560px;
+      height: 560px;
+    }
+
+    .contact-inner {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 60px;
+    }
+
+    .contact-cta h2 {
+      max-width: 750px;
+      margin-bottom: 18px;
+      color: var(--white);
+    }
+
+    .contact-cta p {
+      max-width: 650px;
+      margin-bottom: 0;
+      color: rgba(255,255,255,.8);
+      font-size: 18px;
+    }
+
+    .contact-actions {
+      display: flex;
+      flex-shrink: 0;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    /* Footer */
+
+    .site-footer {
+      padding: 65px 0 105px;
+      color: rgba(255,255,255,.8);
+      background: #202A35;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.2fr .8fr .8fr;
+      gap: 65px;
+      padding-bottom: 45px;
+    }
+
+    .footer-brand .brand-name { color: var(--white); }
+
+    .footer-brand .brand-sub { color: #C7D5E5; }
+
+    .footer-brand p {
+      max-width: 390px;
+      margin-top: 22px;
+      color: rgba(255,255,255,.7);
+      font-size: 15px;
+    }
+
+    .footer-col h4 {
+      margin: 0 0 18px;
+      color: var(--white);
+      font-size: 13px;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    .footer-col a,
+    .footer-col p {
+      display: block;
+      margin-bottom: 10px;
+      color: rgba(255,255,255,.72);
+      font-size: 14px;
+    }
+
+    .footer-col a:hover { color: var(--white); }
+
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(255,255,255,.17);
+      color: rgba(255,255,255,.56);
+      font-size: 12px;
+    }
+
+    /* Mobile conversion bar */
+
+    .mobile-cta {
+      position: fixed;
+      z-index: 100;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      display: none;
+      grid-template-columns: 1fr 1.35fr;
+      gap: 9px;
+      padding: 11px 12px calc(11px + env(safe-area-inset-bottom));
+      background: rgba(255,255,255,.97);
+      border-top: 1px solid var(--border);
+      box-shadow: 0 -8px 30px rgba(32,42,53,.12);
+      backdrop-filter: blur(12px);
+    }
+
+    .mobile-cta .button {
+      min-height: 49px;
+      padding: 11px 12px;
+      font-size: 14px;
+    }
+
+    /* Reveal motion */
+
+    [data-reveal] {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity .75s var(--ease), transform .75s var(--ease);
+    }
+
+    [data-reveal].is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .delay-1 { transition-delay: .1s; }
+    .delay-2 { transition-delay: .2s; }
+    .delay-3 { transition-delay: .3s; }
+
+    /* Responsive */
+
+    @media (max-width: 1050px) {
+      .nav-links { gap: 17px; }
+      .nav-links a { font-size: 12px; }
+      .intro-grid, .sustainability-layout { gap: 55px; }
+      .journey-layout { gap: 55px; }
+      .project-feature { min-height: 520px; }
+    }
+
+    @media (max-width: 820px) {
+      .section { padding: 82px 0; }
+
+      .nav-wrap { min-height: 78px; }
+
+      .menu-toggle {
+        display: block;
+        position: relative;
+        z-index: 52;
+      }
+
+      .nav-links {
+        position: fixed;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+        gap: 0;
+        padding: 100px 34px 40px;
+        background: var(--paper);
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-10px);
+        transition: opacity .25s ease, visibility .25s ease, transform .25s ease;
+      }
+
+      .nav-links.is-open {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+      }
+
+      .nav-links a {
+        padding: 16px 0;
+        border-bottom: 1px solid var(--border);
+        font-size: 19px;
+      }
+
+      .nav-links .nav-cta {
+        margin-top: 20px;
+        padding: 15px 18px;
+        text-align: center;
+      }
+
+      .hero {
+        min-height: 740px;
+        background-position: 58% center;
+      }
+
+      .hero::before { right: -310px; }
+
+      .hero-note { display: none; }
+
+      .statement-inner,
+      .intro-grid,
+      .sustainability-layout,
+      .journey-layout {
+        grid-template-columns: 1fr;
+        gap: 38px;
+      }
+
+      .statement { padding: 65px 0; }
+
+      .intro-visual { min-height: 460px; }
+
+      .section-heading {
+        display: block;
+        margin-bottom: 42px;
+      }
+
+      .section-heading .lead { margin-top: 20px; }
+
+      .capability-grid { gap: 0 22px; }
+
+      .capability { min-height: 250px; }
+
+      .project-grid { grid-template-columns: 1fr; }
+
+      .project-feature { min-height: 510px; }
+
+      .project-side {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+      }
+
+      .project-mini { min-height: 300px; }
+
+      .sustainability-visual { min-height: 430px; }
+
+      .contact-inner {
+        display: block;
+      }
+
+      .contact-actions { margin-top: 30px; }
+
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 35px;
+      }
+
+      .footer-brand { grid-column: 1 / -1; }
+    }
+
+    @media (max-width: 560px) {
+      body { font-size: 16px; }
+
+      .container { width: calc(100% - 36px); }
+
+      .section { padding: 68px 0; }
+
+      h1 { font-size: clamp(42px, 12vw, 54px); }
+
+      h2 { font-size: clamp(34px, 9vw, 42px); }
+
+      .hero {
+        min-height: 760px;
+        align-items: end;
+        padding: 150px 0 65px;
+        background:
+          linear-gradient(180deg, rgba(245,243,238,.42), rgba(245,243,238,.97) 43%, rgba(245,243,238,1) 100%),
+          url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85") center top/auto 54%;
+        background-repeat: no-repeat;
+      }
+
+      .hero::before {
+        top: 5%;
+        right: -390px;
+        width: 500px;
+        height: 500px;
+      }
+
+      .hero-copy { font-size: 17px; }
+
+      .hero-actions {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 34px;
+      }
+
+      .hero-actions .button { width: 100%; }
+
+      .hero-proof {
+        gap: 12px 18px;
+        font-size: 10px;
+      }
+
+      .statement h2 { font-size: 38px; }
+
+      .statement p { font-size: 16px; }
+
+      .intro-visual { min-height: 380px; }
+
+      .capability-grid { grid-template-columns: 1fr; }
+
+      .capability {
+        display: grid;
+        grid-template-columns: 62px 1fr;
+        gap: 0 17px;
+        min-height: auto;
+        padding: 25px 0;
+      }
+
+      .capability-icon {
+        grid-row: span 2;
+        width: 58px;
+        height: 58px;
+        margin: 0;
+      }
+
+      .capability-icon svg {
+        width: 31px;
+        height: 31px;
+      }
+
+      .capability h3 { align-self: end; }
+
+      .capability p { font-size: 15px; }
+
+      .project-feature { min-height: 460px; }
+
+      .project-feature-content { padding: 28px; }
+
+      .project-side {
+        grid-template-columns: 1fr;
+        gap: 18px;
+      }
+
+      .project-mini { min-height: 260px; }
+
+      .project-footnote { font-size: 12px; }
+
+      .sustainability-visual { min-height: 340px; }
+
+      .sustainability-points { gap: 22px 18px; }
+
+      .proof-grid { grid-template-columns: 1fr; }
+
+      .proof-item,
+      .proof-item + .proof-item {
+        padding: 25px 0;
+        border-left: 0;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .proof-item:last-child { border-bottom: 0; }
+
+      .journey-step { grid-template-columns: 42px 1fr; }
+
+      .contact-cta { padding: 76px 0; }
+
+      .contact-actions {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+      .contact-actions .button { width: 100%; }
+
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 28px;
+      }
+
+      .footer-brand { grid-column: auto; }
+
+      .footer-bottom {
+        flex-direction: column;
+        gap: 8px;
+      }
+
+      .mobile-cta { display: grid; }
+
+      .site-footer { padding-bottom: 125px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .01ms !important;
+      }
+
+      [data-reveal] {
+        opacity: 1;
+        transform: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Spectrum Development home">
+        <span class="brand-name">SPECTRUM</span>
+        <span class="brand-sub">Development · Cayman Islands</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-navigation">
+        <span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="main-navigation" aria-label="Main navigation">
+        <a href="#approach">Our Approach</a>
+        <a href="#capabilities">What We Do</a>
+        <a href="#projects">Projects</a>
+        <a href="#sustainability">Sustainability</a>
+        <a href="#contact" class="nav-cta">Start a Conversation <span class="arrow">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content" data-reveal>
+          <p class="eyebrow">Unique · Sustainable · Resilient</p>
+
+          <h1>
+            A better way to build.
+            <span>A better way to live.</span>
+          </h1>
+
+          <p class="hero-copy">
+            We develop distinctive homes and communities in the Cayman Islands,
+            bringing together thoughtful design, sustainable technology and
+            independently verified environmental performance.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="button button-primary">
+              Explore Our Developments <span class="arrow">↗</span>
+            </a>
+            <a href="#contact" class="button button-outline">
+              Discuss a Project <span class="arrow">↗</span>
+            </a>
+          </div>
+
+          <div class="hero-proof">
+            <span><i class="proof-dot"></i> LEED Certified</span>
+            <span><i class="proof-dot"></i> Net Zero</span>
+            <span><i class="proof-dot"></i> Solar</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-note">Architectural reference imagery — not a representation of a specific Spectrum project.</div>
+    </section>
+
+    <!-- BRAND STATEMENT -->
+    <section class="statement">
+      <div class="container statement-inner">
+        <h2 data-reveal>
+          Sustainability should be built in — never added as an afterthought.
+        </h2>
+        <p data-reveal class="delay-1">
+          We approach development as a complete system. The way a home is
+          designed, built, powered and experienced matters. Our focus is on
+          creating places that deliver lasting value for people and the
+          environment.
+        </p>
+      </div>
+    </section>
+
+    <!-- APPROACH -->
+    <section class="section" id="approach">
+      <div class="container intro-grid">
+        <div class="intro-visual" role="img" aria-label="Illustrative contemporary residential architecture">
+          <div class="visual-caption">
+            <strong>Designed for tomorrow.</strong>
+            <small>Thoughtful development in the Cayman Islands</small>
+          </div>
+        </div>
+
+        <div class="intro-copy" data-reveal>
+          <p class="eyebrow">Our approach</p>
+          <h2>Development with a bigger purpose.</h2>
+          <p class="lead">
+            For over a decade, Spectrum Development has focused on a different
+            standard of residential development in the Cayman Islands:
+            homes and communities designed around sustainability from the
+            beginning.
+          </p>
+          <p>
+            Our team brings more than 30 years of combined development and
+            construction experience. From the first concept through
+            development and construction, we bring the different parts of a
+            project together with a consistent focus on quality and
+            environmental performance.
+          </p>
+          <p>
+            The result is a more considered approach to creating places that
+            can serve their owners and communities for years to come.
+          </p>
+          <a href="https://spectrumdevelopment.ky/about/" class="text-link">
+            Discover our story <span class="arrow">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SIX CUSTOM ICONS: EXACTLY TWO ROWS OF THREE -->
+    <section class="section capabilities" id="capabilities">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">A considered approach</p>
+            <h2>More than a home.<br>A complete way of thinking.</h2>
+          </div>
+          <p class="lead">
+            Sustainable development involves the decisions made at every
+            stage — from the design of a building to the way it uses energy
+            and supports everyday life.
+          </p>
+        </div>
+
+        <div class="capability-grid">
+
+          <article class="capability" data-reveal>
+            <div class="capability-icon">
+              <svg viewBox="0 0 48 48" role="img" aria-label="Building design icon">
+                <path d="M8 40V15l16-8 16 8v25"/>
+                <path d="M16 40V27h16v13M17 17h.1M24 17h.1M31 17h.1"/>
+                <path d="M5 40h38M20 27v13M28 27v13"/>
+              </svg>
+            </div>
+            <h3>Thoughtful Design</h3>
+            <p>Residential design that considers the building, its occupants and its wider surroundings.</p>
+          </article>
+
+          <article class="capability" data-reveal>
+            <div class="capability-icon">
+              <svg viewBox="0 0 48 48" role="img" aria-label="Energy efficiency icon">
+                <path d="M27 5 11 27h12l-2 16 16-23H25l2-15Z"/>
+                <path d="M7 11h6M5 18h5M36 9l4-4"/>
+              </svg>
+            </div>
+            <h3>Energy Performance</h3>
+            <p>Energy-conscious building strategies designed to reduce consumption and support better performance.</p>
+          </article>
+
+          <article class="capability" data-reveal>
+            <div class="capability-icon">
+              <svg viewBox="0 0 48 48" role="img" aria-label="Solar energy icon">
+                <circle cx="24" cy="12" r="5"/>
+                <path d="M24 2v3M24 19v3M14 12h-3M37 12h-3M17 5l-2-2M33 5l2-2"/>
+                <path d="m9 25 30 0-4 16H13L9 25Z"/>
+                <path d="m17 25-1 16M25 25v16M33 25l-1 16M11 33h26"/>
+              </svg>
+            </div>
+            <h3>Solar Integration</h3>
+            <p>Solar energy and supporting technologies considered as part of a broader development strategy.</p>
+          </article>
+
+          <article class="capability" data-reveal>
+            <div class="capability-icon">
+              <svg viewBox="0 0 48 48" role="img" aria-label="Sustainable certification icon">
+                <path d="M24 5 39 11v11c0 10-6 16-15 21C15 38 9 32 9 22V11l15-6Z"/>
+                <path d="m16 24 5 5 11-12"/>
+              </svg>
+            </div>
+            <h3>Verified Standards</h3>
+            <p>LEED certification and independent verification provide meaningful evidence of environmental performance.</p>
+          </article>
+
+          <article class="capability" data-reveal>
+            <div class="capability-icon">
+              <svg viewBox="0 0 48 48" role="img" aria-label="Resilient construction icon">
+                <path d="M24 5 41 13v13c0 8-7 14-17 17C14 40 7 34 7 26V13l17-8Z"/>
+                <path d="M15 25h18M24 16v18M18 19l12 12M30 19 18 31"/>
+              </svg>
+            </div>
+            <h3>Resilient Thinking</h3>
+            <p>Development choices that consider the long-term demands of the Cayman Islands environment.</p>
+          </article>
+
+          <article class="capability" data-reveal>
+            <div class="capability-icon">
+              <svg viewBox="0 0 48 48" role="img" aria-label="Community and landscape icon">
+                <path d="M7 40h34M11 40V25l8-6 8 6v15M27 40V17l7-5 7 5v23"/>
+                <path d="M15 29h8M31 23h6M31 29h6"/>
+                <path d="M7 17c0-4 3-7 7-7 2-5 10-3 10 3"/>
+              </svg>
+            </div>
+            <h3>Community Value</h3>
+            <p>Places designed with the wider experience of residents and the surrounding community in mind.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="projects-heading">
+          <div>
+            <p class="eyebrow">Selected developments</p>
+            <h2>Ideas made tangible.</h2>
+          </div>
+          <a href="https://spectrumdevelopment.ky/projects/" class="button button-outline">
+            View All Projects <span class="arrow">↗</span>
+          </a>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-feature" data-reveal>
+            <div class="project-feature-content">
+              <span class="project-label">Featured development</span>
+              <h3>VIRIDIA</h3>
+              <p>
+                Presented as the Caribbean's first LEED ZERO community,
+                VIRIDIA brings together residential living, solar energy
+                and a broader approach to sustainable community design.
+              </p>
+              <a href="https://viridia.ky/about-viridia/" class="button button-light">
+                Discover VIRIDIA <span class="arrow">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <div class="project-side">
+            <article class="project-mini periwinkle" data-reveal>
+              <div class="project-mini-content">
+                <h3>Villa Periwinkle</h3>
+                <p>Explore a project within Spectrum's sustainable development portfolio.</p>
+              </div>
+            </article>
+
+            <article class="project-mini viridia" data-reveal>
+              <div class="project-mini-content">
+                <h3>Sailfish Residence</h3>
+                <p>Recognised on the company website as the first LEED-certified home in the Caribbean region.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <p class="project-footnote">
+          Project imagery shown here is illustrative architectural photography,
+          not verified photographs of the named developments. Visit the project
+          pages for project-specific information.
+        </p>
+      </div>
+    </section>
+
+    <!-- SUSTAINABILITY -->
+    <section class="section sustainability" id="sustainability">
+      <div class="container sustainability-layout">
+        <div class="sustainability-visual" role="img" aria-label="Illustrative solar energy installation"></div>
+
+        <div data-reveal>
+          <p class="eyebrow">Innovation + sustainability</p>
+          <h2>Performance you can understand. Sustainability you can verify.</h2>
+          <p class="lead">
+            A sustainable home is about more than adding solar panels.
+            It is about considering how the whole building works — its
+            design, efficiency, materials, energy use and long-term impact.
+          </p>
+          <p class="lead">
+            Spectrum's approach places LEED and net-zero principles within
+            the development process, supported by independent verification
+            where applicable.
+          </p>
+
+          <div class="sustainability-points">
+            <div class="sustainability-point">
+              <strong>LEED Framework</strong>
+              <span>A recognised framework for assessing sustainable building performance.</span>
+            </div>
+            <div class="sustainability-point">
+              <strong>Net-Zero Focus</strong>
+              <span>Homes and communities designed around energy performance.</span>
+            </div>
+            <div class="sustainability-point">
+              <strong>Solar Energy</strong>
+              <span>Renewable energy considered as part of the wider building system.</span>
+            </div>
+            <div class="sustainability-point">
+              <strong>Independent Verification</strong>
+              <span>Third-party certification helps substantiate environmental claims.</span>
+            </div>
+          </div>
+
+          <a href="https://greentechgroup.ky/sustainable-development/" class="button">
+            Learn About Our Sustainability Approach <span class="arrow">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE AND CREDIBILITY -->
+    <section class="section proof">
+      <div class="container">
+        <div class="proof-intro" data-reveal>
+          <p class="eyebrow">Experience with purpose</p>
+          <h2>Built on experience. Driven by better possibilities.</h2>
+          <p class="lead">
+            Spectrum's work is supported by a history of sustainable
+            development in the Cayman Islands, a multidisciplinary team
+            and recognition for design and environmental performance.
+          </p>
+        </div>
+
+        <div class="proof-grid">
+          <div class="proof-item" data-reveal>
+            <strong>10+ years</strong>
+            <p>Developing in the Cayman Islands with sustainability as a core consideration.</p>
+          </div>
+          <div class="proof-item" data-reveal>
+            <strong>30+ years</strong>
+            <p>Combined development and construction experience across the team, as stated by the company.</p>
+          </div>
+          <div class="proof-item" data-reveal>
+            <strong>2×</strong>
+            <p>Governor's Award recognition cited by Spectrum for design innovation and sustainability excellence.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section journey">
+      <div class="container journey-layout">
+        <div data-reveal>
+          <p class="eyebrow">A considered process</p>
+          <h2>From a clear vision to a lasting place.</h2>
+          <p class="lead">
+            Every development begins with understanding what it should
+            achieve. A joined-up approach helps bring design, development
+            and construction considerations together.
+          </p>
+          <a href="#contact" class="text-link">
+            Talk to our team <span class="arrow">↗</span>
+          </a>
+        </div>
+
+        <div class="journey-list">
+          <article class="journey-step" data-reveal>
+            <span class="journey-number">01</span>
+            <div>
+              <h3>Understand the opportunity</h3>
+              <p>Establish the vision, location, development goals and the needs of the people who will use the place.</p>
+            </div>
+          </article>
+
+          <article class="journey-step" data-reveal>
+            <span class="journey-number">02</span>
+            <div>
+              <h3>Design with intention</h3>
+              <p>Bring architectural thinking, sustainability priorities and practical project considerations together.</p>
+            </div>
+          </article>
+
+          <article class="journey-step" data-reveal>
+            <span class="journey-number">03</span>
+            <div>
+              <h3>Develop and construct</h3>
+              <p>Coordinate the development and construction journey around the project's agreed objectives.</p>
+            </div>
+          </article>
+
+          <article class="journey-step" data-reveal>
+            <span class="journey-number">04</span>
+            <div>
+              <h3>Support lasting value</h3>
+              <p>Keep long-term building performance, environmental impact and the experience of occupants in view.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact-cta" id="contact">
+      <div class="container contact-inner">
+        <div data-reveal>
+          <p class="eyebrow" style="color:#DCE5F0">Let's talk property</p>
+          <h2>Have a vision for a better place?</h2>
+          <p>
+            Whether you are exploring a sustainable home, considering a
+            development opportunity or looking to discuss a partnership,
+            start a conversation with Spectrum.
+          </p>
+        </div>
+
+        <div class="contact-actions" data-reveal>
+          <a class="button button-light" href="mailto:info@spectrumdevelopment.com">
+            Email Spectrum <span class="arrow">↗</span>
+          </a>
+          <a class="button button-outline" style="color:#fff;border-color:rgba(255,255,255,.55)" href="tel:+13459167246">
+            Call +1 (345) 916 7246
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="#home">
+            <span class="brand-name">SPECTRUM</span>
+            <span class="brand-sub">Development · Cayman Islands</span>
+          </a>
+          <p>
+            Developing distinctive homes and communities with a focus on
+            sustainability, energy performance and lasting value.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <a href="#approach">Our Approach</a>
+          <a href="#capabilities">What We Do</a>
+          <a href="#projects">Projects</a>
+          <a href="#sustainability">Sustainability</a>
+          <a href="https://spectrumdevelopment.ky/about/">About Spectrum</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <a href="tel:+13459167246">+1 (345) 916 7246</a>
+          <a href="mailto:info@spectrumdevelopment.com">info@spectrumdevelopment.com</a>
+          <p>Landmark Square, Floor 1 – Unit A<br>Grand Cayman, Cayman Islands</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Spectrum Development. All rights reserved.</span>
+        <span>Unique · Sustainable · Resilient</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- EXACTLY TWO MOBILE CTA BUTTONS -->
+  <div class="mobile-cta" aria-label="Quick contact actions">
+    <a class="button button-outline" href="tel:+13459167246">Call Now</a>
+    <a class="button button-primary" href="mailto:info@spectrumdevelopment.com">Email Spectrum</a>
+  </div>
+
+  <script>
+    (() => {
+      const menuButton = document.querySelector(".menu-toggle");
+      const navigation = document.querySelector(".nav-links");
+      const navItems = navigation.querySelectorAll("a");
+
+      function closeMenu() {
+        navigation.classList.remove("is-open");
+        document.body.classList.remove("menu-open");
+        menuButton.setAttribute("aria-expanded", "false");
+        menuButton.setAttribute("aria-label", "Open navigation");
+      }
+
+      menuButton.addEventListener("click", () => {
+        const isOpen = navigation.classList.toggle("is-open");
+        document.body.classList.toggle("menu-open", isOpen);
+        menuButton.setAttribute("aria-expanded", String(isOpen));
+        menuButton.setAttribute(
+          "aria-label",
+          isOpen ? "Close navigation" : "Open navigation"
+        );
+      });
+
+      navItems.forEach((item) => {
+        item.addEventListener("click", closeMenu);
+      });
+
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") closeMenu();
+      });
+
+      const revealElements = document.querySelectorAll("[data-reveal]");
+      const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+      if ("IntersectionObserver" in window && !reduceMotion) {
+        const observer = new IntersectionObserver((entries, currentObserver) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("is-visible");
+              currentObserver.unobserve(entry.target);
+            }
+          });
+        }, {
+          threshold: 0.12,
+          rootMargin: "0px 0px -35px 0px"
+        });
+
+        revealElements.forEach((element) => observer.observe(element));
+      } else {
+        revealElements.forEach((element) => element.classList.add("is-visible"));
+      }
+
+      document.getElementById("year").textContent = new Date().getFullYear();
+    })();
+  </script>
+</body>
+</html>
